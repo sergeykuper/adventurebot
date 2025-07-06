@@ -31,5 +31,5 @@ def create_kid_friendly_agent() -> Agent[TripContext]:
         output_type=SearchResult,
         tools=[WebSearchTool()],
     )
-print("tested")
+
 
