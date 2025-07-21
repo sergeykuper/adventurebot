@@ -1,4 +1,4 @@
-from agents import Runner, trace, getn_trace_id, Agent
+from agents import Runner, trace, gen_trace_id, Agent
 from agents.result import RunResult
 from agents.mcp import MCPServerStdio
 from .models import TripQuery, TripContext

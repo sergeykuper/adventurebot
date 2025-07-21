@@ -1,5 +1,5 @@
 """Agent definitions for the AdventureBot application"""
-from agents import Agent, Runner, trace, getn_trace_id
+from agents import Agent, Runner, trace, gen_trace_id
 
 # Import the consolidated agent creation functions and their output types
 from .weather_agent import create_weather_agent, WeatherAnalysis
@@ -28,6 +28,6 @@ __all__ = [
     'Agent',
     'Runner',
     'trace',
-    'get_trace_id'
+    'gen_trace_id'
 ]
 
